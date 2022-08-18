@@ -20,8 +20,6 @@ namespace Övningar_Delegates_and_Events
             myWriting.Eating();
 
             Console.ReadKey(true);
-
-
         }
     }
 }

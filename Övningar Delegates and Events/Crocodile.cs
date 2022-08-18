@@ -52,6 +52,7 @@ namespace Övningar_Delegates_and_Events
 
     //Skapa en klass som kan skriva ut saker på konsolen. Den ska ha ett event för händelsen att något skrivs ut. Skapa en ny klass,
     //som prenumererar på utskriftshändelsen.
+
     public class Writing
     {
         // Event för något som skrivs ut
@@ -77,6 +78,10 @@ namespace Övningar_Delegates_and_Events
         {
             Console.WriteLine("Subscribed on Event WritingSomething");
         }
-    }
 
+        public void AddingNewStuff()
+        {
+            // New stuff is coming here.
+        }
+    }
 }
